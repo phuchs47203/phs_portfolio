@@ -9,10 +9,13 @@ const Navbar = () => {
     return (
         <nav className='pflo__navbar'>
             <div className='pflo__navbar-logo'>
-                <img src={logo} alt="logo" />
+                <a href="#home">
+                    <img src={logo} alt="logo" />
+                </a>
             </div>
+            {/* bonus   'experience' and 'achievement-certificate'  */}
             <ul className='pflo__navbar-links'>
-                {['home', 'about', 'skills', 'portfolio', 'comment', 'contact'].map((item) => (
+                {['home', 'about', 'skills', 'portfolio', 'achievement', 'comment', 'contact'].map((item) => (
                     <li className='pflo__flex p-text' key={`link-$item`}>
                         <div />
                         <a href={`#${item}`}>{item}</a>
@@ -29,7 +32,7 @@ const Navbar = () => {
                     >
                         <HiX onClick={() => setToggle(false)} />
                         <ul>
-                            {['home', 'about', 'skills', 'portfolio', 'comment', 'contact'].map((item) => (
+                            {['home', 'about', 'skills', 'portfolio', 'achievement', 'comment', 'contact'].map((item) => (
                                 <li key={item}>
                                     <a href={`#${item}`} onClick={() => setToggle(false)}>
                                         {item}

@@ -2,18 +2,21 @@
 import React from 'react';
 import './App.css';
 import { Navbar, CTA, Artical } from './components';
-import { Header, Skills, About, Comment, Footer, Portfolio } from './container'
+import { Header, Skills, About, Comment, Footer, Portfolio, Achievement } from './container'
 const App = () => {
     return (
         <div className='App'>
-            <div className='gradient__bg'>
+            <div>
                 <Navbar />
             </div>
-            <Header />
-            <About />
+            <div className='bg_about'>
+                <Header />
+                <About />
+            </div>
             <Skills />
-            <Portfolio />
             <CTA />
+            <Portfolio />
+            <Achievement />
             <Comment />
             <Footer />
         </div>

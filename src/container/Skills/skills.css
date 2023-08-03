@@ -1,0 +1,216 @@
+.pflo__skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.pflo__skills h1 {
+    font-family: var(--font-family);
+    text-align: center;
+    font-size: 60px;
+}
+
+.pflo__skills p {
+    font-family: var(--font-family);
+    color: var(--color-p);
+    margin-left: 2rem;
+    font-size: 28px;
+}
+
+.pflo__skill-img {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 1rem;
+}
+
+.pflo__skill-img div {
+    width: 100px;
+    height: 70px;
+    margin: 2rem;
+}
+
+.pflo__skill-img_details {
+    /* position: fixed; */
+    width: 35px;
+    height: 35px;
+    border-radius: 20%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.pflo__skill-img_details div {
+    position: absolute;
+    z-index: 5;
+    height: fit-content;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.pflo__skill-img_details div svg {
+    width: 25px;
+    height: 25px;
+    color: rgb(228, 99, 82);
+    cursor: pointer;
+    z-index: 6;
+    /* margin: 1rem; */
+}
+
+.pflo__skill-img_details div div {
+    background: url('../../assets/bgWhite.png');
+    background-color: rgb(252, 251, 223);
+    background-size: cover;
+    margin: 0;
+}
+
+.pflo__skill-img_details div div p {
+    font-family: var(--font-family);
+    color: var(--color-p);
+    word-wrap: break-word;
+    margin: 1rem;
+}
+
+.pflo__skill-img div img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    object-fit: contain;
+    z-index: 1;
+}
+
+@media screen and (max-width:1200px) {
+    .pflo__skill-img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .pflo__skill-img div {
+        width: 170px;
+        height: fit-content;
+
+        justify-content: center;
+    }
+
+    .pflo__skill-img_details div {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pflo__skill-img_details div svg {
+        z-index: 6;
+        margin-top: 3rem;
+        width: 20px;
+        height: 20px;
+    }
+
+    .pflo__skill-img div img {
+        width: 50%;
+        height: 50%;
+        cursor: pointer;
+        object-fit: contain;
+        z-index: 1;
+    }
+
+    .pflo__skill-img_details div div {
+        margin-top: 3rem;
+    }
+
+    .pflo__skill-img_details div {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .pflo__skills h1 {
+        font-size: 40px;
+        line-height: 38x;
+    }
+
+    .pflo__skills p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .pflo__skill-img {
+        margin-top: 1rem;
+    }
+
+    .pflo__skill-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pflo__skill-img div {
+        width: 150px;
+        /* height: 150px; */
+        height: fit-content;
+
+        margin: 1rem;
+        justify-content: center;
+    }
+
+    .pflo__skills h1 {
+        font-size: 32px;
+    }
+
+    .pflo__skills p {
+        font-size: 16px;
+    }
+
+    .pflo__skill-img_details div svg {
+        width: 20px;
+        height: 20px;
+        color: rgb(228, 99, 82);
+        background: none;
+        cursor: pointer;
+        z-index: 6;
+        margin-top: 3rem;
+    }
+
+    .pflo__skill-img_details div div p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .pflo__skill-img div img {
+        width: 50%;
+        height: 50%;
+        cursor: pointer;
+        object-fit: contain;
+        z-index: 1;
+    }
+
+    .pflo__skill-img_details div div {
+        margin-right: 0;
+        margin-top: 3rem;
+        margin-bottom: 0;
+    }
+
+    .pflo__skill-img_details div {
+        margin: 0;
+        position: absolute;
+        display: grid;
+    }
+}

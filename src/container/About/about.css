@@ -1,0 +1,145 @@
+.pflo__about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.pflo__about-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+}
+
+.pflo__about-img img {
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.pflo__about-content {
+    flex: 1;
+}
+
+.pflo__about-content h1 {
+    font-family: var(--font-family);
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.pflo__about-content div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pflo__about-content div h2 {
+    font-family: var(--font-family);
+    color: var(--color-p);
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: left;
+    /* margin-bottom: 2rem; */
+}
+
+.pflo__about-content div a {
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.pflo__about-content_UIT {
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 2rem;
+}
+
+.pflo__about-content_UIT a img {
+    height: 30px;
+
+}
+
+.pflo__about-content div a img {
+    height: 50px;
+
+}
+
+.pflo__about-content p {
+    font-family: var(--font-family);
+    color: var(--color-p);
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+@media screen and (max-width:1000px) {
+    .pflo__about {
+        flex-direction: column;
+    }
+
+    .pflo__about-content h1 {
+        font-size: 40px;
+        line-height: 38px;
+    }
+
+    .pflo__about-content div h2 {
+        font-size: 20px;
+    }
+
+    .pflo__about-img {
+        display: none;
+    }
+
+    .pflo__about-content p {
+        font-size: 20px;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:850) {
+    .pflo__about-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .pflo__about {
+        flex-direction: column;
+        margin: 0 1rem 0 1rem;
+    }
+
+    .pflo__about-content h1 {
+        font-size: 32px;
+        line-height: 38px;
+        font-weight: 500;
+    }
+
+    .pflo__about-content div h2 {
+        font-size: 16px;
+    }
+
+    .pflo__about-content div a img {
+        height: 35px;
+    }
+
+    .pflo__about-img {
+        display: none;
+    }
+
+
+    .pflo__about-content p {
+        font-size: 16px;
+        margin-bottom: 2rem;
+        text-align: justify;
+    }
+}

@@ -1,8 +1,52 @@
-.app {
-    background-color: var(--primary-color);
+body {
+    background: var(--color-bg);
+}
+
+.gradient__bg_bd {
+    background: var(--color-bg);
+}
+
+/* .gradient__bg {
+    background: var(--gradient-bg);
+    background-clip: text;
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.App {
+    background-color: var(--color-bg);
     font-family: var(--font-base);
 }
 
+.gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.line_color {
+    background: var(--liner-color);
+    background-clip: text;
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section__padding {
+    padding: 4rem 6rem;
+}
+
+.section__margin {
+    margin: 4rem 6rem;
+}
+
+.bg_about {
+    background: url('../src/assets/bgWhite.png');
+    background-color: rgb(157, 178, 192);
+    background-size: cover;
+}
+
+/*
 .app__whitebg {
     background-color: var(--white-color);
 }
@@ -34,7 +78,7 @@
     @media screen and (max-width: 450px) {
         padding: 4rem 1rem 2rem;
     }
-}
+} */
 
 .p-text {
     font-size: 0.8rem;
