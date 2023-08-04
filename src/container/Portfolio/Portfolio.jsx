@@ -9,7 +9,7 @@ const projectDATA = [
         title: 'Portfolio Website - In Process',
         description: 'ReactJS, CSS, Javascript',
         srccode: 'https://github.com/phuchs47203/phs_portfolio.git',
-        democode: 'https://create-portfolio-rosy.vercel.app/',
+        democode: '',
         commen: '#comment'
     },
     {
@@ -27,7 +27,7 @@ const projectDATA = [
         title: 'Practice Rest API basic - Finished',
         description: 'Practice RestAPI, Springboot, Hibernate, JAVA',
         srccode: 'https://github.com/phuchs47203/RestAPIBasic.git',
-        democode: 'https://create-portfolio-rosy.vercel.app/',
+        democode: '',
         commen: '#comment'
     },
     {
@@ -36,7 +36,7 @@ const projectDATA = [
         title: 'Library Management',
         description: 'Project of Library Management System: JAVA, System analysis and design, Built Database, User Authorization, JDBC, MVC famework',
         srccode: 'https://github.com/phuchs47203/App_ThuVien.git',
-        democode: 'https://create-portfolio-rosy.vercel.app/',
+        democode: '',
         commen: '#comment'
     },
     {
@@ -45,7 +45,7 @@ const projectDATA = [
         title: 'Login and Registration using SPring boot - In Process',
         description: 'Practice Springboot, Hibernate, Send Email, Login User',
         srccode: 'https://github.com/phuchs47203/Login_and_Registration.git',
-        democode: 'https://create-portfolio-rosy.vercel.app/',
+        democode: '',
         commen: '#comment'
     },
     {
@@ -54,7 +54,7 @@ const projectDATA = [
         title: 'Practice shoppe HTML, CSS',
         description: 'Practice HTML, CSS, Javascript',
         srccode: 'https://github.com/phuchs47203/shopee.git',
-        democode: 'https://create-portfolio-rosy.vercel.app/',
+        democode: '',
         commen: '#comment'
     }
 ]

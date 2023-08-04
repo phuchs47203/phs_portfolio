@@ -5,6 +5,7 @@
     padding: 3rem 2rem;
     /* justify-content: center; */
     align-items: center;
+    padding-bottom: 0;
 }
 
 .pflo__footer-heading {
@@ -63,6 +64,19 @@
     height: 30px;
     object-fit: contain;
     margin-right: 1rem;
+}
+
+.copy-right {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.copy-right h6 {
+    font-family: var(--font-family);
+    color: aliceblue;
+    font-size: 10px;
+    font-weight: 100;
 }
 
 .pflo__footer-content_link p {

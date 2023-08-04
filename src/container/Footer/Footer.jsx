@@ -35,7 +35,11 @@ const Footer = () => {
                         <img src={imagess.github} alt="" />
                     </a>
                 </div>
-
+            </div>
+            <div className='copy-right'>
+                <h6>
+                    © 2023 Portfolio. All rights reserved.
+                </h6>
             </div>
         </div>
     )
