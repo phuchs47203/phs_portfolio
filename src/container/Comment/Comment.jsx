@@ -1,21 +1,89 @@
+import { useState } from 'react';
 import React from 'react'
 import './comment.css';
+import CommentUserService from '../../service/CommentUserService';
 
 const Comment = () => {
+    const [comment_user, setCommentUser] = useState({
+        email: "",
+        fullname: "",
+        projectName: "",
+        commentofuser: ""
+    });
+    const [errorMessageemail, setErrorMessageemail] = React.useState('');
+    const [errorMessagecomment, setErrorMessagecomment] = React.useState('');
+
+    const handleChange = (e) => {
+        const value = e.target.value;
+        setCommentUser({ ...comment_user, [e.target.name]: value });
+    }
+    const saveComment = (e) => {
+        e.preventDefault();
+
+        if (!comment_user.email) {
+            setErrorMessageemail('Email Address cannot be empty');
+            return;
+        }
+        setErrorMessageemail('');
+        if (!comment_user.commentofuser) {
+            setErrorMessagecomment('Comments cannot be empty');
+            return;
+        }
+        setErrorMessagecomment('');
+
+        CommentUserService.saveComment(comment_user)
+            .then((response) => {
+                console.log(response);
+            }).catch((error) => {
+                console.log(error);
+            })
+    }
     return (
+
         <div className='pflo__comment' id='comment'>
             <div className='pflo__comment-heading'>
                 <h1 className='gradient__text'>Enter your comment right here !</h1>
             </div>
             <div className='pflo__comment-content'>
-                <input type="email" placeholder="Your email address" id='email_reader' />
-                <input type="text" placeholder='Your name' id='name_reader' />
-                <input type="text" placeholder='My project name' id='project_name' />
+                <input type="email"
+                    placeholder="Your email address"
+                    name='email'
+                    value={comment_user.email}
+                    onChange={(e) => handleChange(e)}
+                />
+                {errorMessageemail && <p className="error-message">{errorMessageemail}</p>}
+                <input type="text"
+                    placeholder='Your name'
+                    name='fullname'
+                    value={comment_user.fullname}
+                    onChange={(e) => handleChange(e)}
+                />
+                <input type="text"
+                    placeholder='My project name'
+                    name='projectName'
+                    onChange={(e) => handleChange(e)}
+                    value={comment_user.projectName}
+                />
                 {/* <input type="text" placeholder='Comment' id='comments' /> */}
-                <textarea name="comemnts" id="comments" cols="30" rows="4" placeholder='Comments'></textarea>
+                <textarea
+                    cols="30"
+                    rows="4"
+                    placeholder='Comments'
+                    name='commentofuser'
+                    value={comment_user.commentofuser}
+                    onChange={(e) => handleChange(e)}
+                ></textarea>
+                {errorMessagecomment && <p className="error-message">{errorMessagecomment}</p>}
+
             </div>
             <div className='pflo__comment-btn'>
-                <button type='button'>Send</button>
+                <button
+                    type='button'
+                    className='btn-transition'
+                    onClick={saveComment}
+                >
+                    Send
+                </button>
             </div>
         </div>
     )
