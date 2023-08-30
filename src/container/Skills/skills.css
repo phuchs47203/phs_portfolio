@@ -84,6 +84,7 @@
     color: var(--color-p);
     word-wrap: break-word;
     margin: 1rem;
+    width: 100%;
 }
 
 .pflo__skill-img div img {

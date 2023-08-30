@@ -3,12 +3,58 @@ import './portfolio.css';
 import images from '../../constants/images';
 import { Artical } from '../../components';
 const projectDATA = [
+
+    {
+        urlimg: images.pfloimg,
+        date: 'Aug 20, 2023',
+        title: 'Employee Management- FrontEnd - Finished',
+        description: 'ReactJS, CSS, Javascript',
+        srccode: 'https://github.com/phuchs47203/manage_employee_basic_fe.git',
+        democode: '',
+        commen: '#comment'
+    },
+    {
+        urlimg: images.pfloimg,
+        date: 'Aug 20, 2023',
+        title: 'Employee Management- BackEnd - Finished',
+        description: 'Springboot, MySQL, Hibernate. Create the APIs needed to perform operations with databases, store employee information, and image profile',
+        srccode: 'https://github.com/phuchs47203/manage_employee_basic_be.git',
+        democode: '',
+        commen: '#comment'
+    },
+    {
+        urlimg: images.pfloimg,
+        date: 'Aug 28, 2023',
+        title: 'Spring Security with Login and Registration - BackEnd - In Process',
+        description: 'Springboot, Spring Security, MySQL, Hibernate. Authentication and Authorization to Java applications. Complete Registration Flow with Email Verification, Resend Email Verification Code, Forgot Password, Change Password, and Login Functionality',
+        srccode: 'https://github.com/phuchs47203/spring_security_client_basic_token.git',
+        democode: '',
+        commen: '#comment'
+    },
     {
         urlimg: images.pfloimg,
         date: 'Aug 04, 2023',
         title: 'Portfolio Website - In Process',
         description: 'ReactJS, CSS, Javascript',
         srccode: 'https://github.com/phuchs47203/phs_portfolio.git',
+        democode: '',
+        commen: '#comment'
+    },
+    {
+        urlimg: images.pfloimg,
+        date: 'Aug 15, 2023',
+        title: 'Artical- FrontEnd - Finished',
+        description: 'ReactJS, CSS, Javascript',
+        srccode: 'https://github.com/phuchs47203/post_front_end.git',
+        democode: '',
+        commen: '#comment'
+    },
+    {
+        urlimg: images.pfloimg,
+        date: 'Aug 15, 2023',
+        title: 'Artical- BackEnd - Finished',
+        description: 'Springboot, MySQL, Hibernate',
+        srccode: 'https://github.com/phuchs47203/post_back_end.git',
         democode: '',
         commen: '#comment'
     },
