@@ -5,16 +5,16 @@ import { Artical } from '../../components';
 const projectDATA = [
 
     {
-        urlimg: images.pfloimg,
+        urlimg: images.employee_fe,
         date: 'Aug 20, 2023',
         title: 'Employee Management- FrontEnd - Finished',
         description: 'ReactJS, CSS, Javascript',
         srccode: 'https://github.com/phuchs47203/manage_employee_basic_fe.git',
-        democode: '',
+        democode: 'https://manage-employee-fe.vercel.app/',
         commen: '#comment'
     },
     {
-        urlimg: images.pfloimg,
+        urlimg: images.employee_be,
         date: 'Aug 20, 2023',
         title: 'Employee Management- BackEnd - Finished',
         description: 'Springboot, MySQL, Hibernate. Create the APIs needed to perform operations with databases, store employee information, and image profile',
@@ -23,7 +23,7 @@ const projectDATA = [
         commen: '#comment'
     },
     {
-        urlimg: images.pfloimg,
+        urlimg: images.login_security,
         date: 'Aug 28, 2023',
         title: 'Spring Security with Login and Registration - BackEnd - In Process',
         description: 'Springboot, Spring Security, MySQL, Hibernate. Authentication and Authorization to Java applications. Complete Registration Flow with Email Verification, Resend Email Verification Code, Forgot Password, Change Password, and Login Functionality',
@@ -37,25 +37,25 @@ const projectDATA = [
         title: 'Portfolio Website - In Process',
         description: 'ReactJS, CSS, Javascript',
         srccode: 'https://github.com/phuchs47203/phs_portfolio.git',
-        democode: '',
+        democode: '/',
         commen: '#comment'
     },
     {
-        urlimg: images.pfloimg,
+        urlimg: images.post_fe,
         date: 'Aug 15, 2023',
         title: 'Artical- FrontEnd - Finished',
         description: 'ReactJS, CSS, Javascript',
         srccode: 'https://github.com/phuchs47203/post_front_end.git',
-        democode: '',
+        democode: 'https://post-front-end.vercel.app/',
         commen: '#comment'
     },
     {
-        urlimg: images.pfloimg,
+        urlimg: images.post_be,
         date: 'Aug 15, 2023',
         title: 'Artical- BackEnd - Finished',
         description: 'Springboot, MySQL, Hibernate',
         srccode: 'https://github.com/phuchs47203/post_back_end.git',
-        democode: '',
+        democode: '/',
         commen: '#comment'
     },
     {

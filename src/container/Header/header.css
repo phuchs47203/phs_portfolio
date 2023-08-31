@@ -22,7 +22,7 @@
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 60px;
-    line-height: 60px;
+    line-height: 70px;
     margin-bottom: 2rem;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .pflo__header-content-links img {
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
     height: 40px;
     flex-wrap: wrap;

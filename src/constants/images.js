@@ -34,6 +34,11 @@ import loginSpring from '../assets/LoginAndRegistration.jpg';
 import score from '../assets/score.png';
 import scholarship from '../assets/schoolarchip.png';
 import toeic from '../assets/toeic.png';
+import post_fe from '../assets/post_fornend_demo.jpg';
+import post_be from '../assets/img_post_be.jpg';
+import employee_fe from '../assets/employee_demo_frontend.jpg';
+import employee_be from '../assets/img_employee_bakend.jpg';
+import login_security from '../assets/security_be_token_login.jpg';
 export default {
     score,
     scholarship,
@@ -70,5 +75,10 @@ export default {
     gptweb,
     shoppee,
     restAPI,
-    loginSpring
+    loginSpring,
+    post_fe,
+    post_be,
+    employee_fe,
+    employee_be,
+    login_security
 }
