@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './skills.css';
 import { imagess } from '../../constants';
-import { HiMenuAlt4, HiX } from 'react-icons/hi';
+import { HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
 const Skills = () => {
     const [imageDetails, setImageDetails] = useState({
@@ -249,12 +249,3 @@ const Skills = () => {
 }
 
 export default Skills
-
-{/* <motion.div
-                            whileInView={{ x: [100, 0] }}
-                            transition={{ duration: 0.85, ease: 'easeOut' }}
-                        >
-                            <HiX onClick={() => setToggle(false)} />
-                            <p>details about your skills</p>
-
-                        </motion.div> */}
