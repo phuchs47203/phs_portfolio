@@ -191,9 +191,10 @@
     }
 
     .pflo__skill-img_details div div p {
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 13px;
+        line-height: 16px;
         width: fit-content;
+        word-wrap: break-word;
     }
 
     .pflo__skill-img div img {
@@ -205,9 +206,10 @@
     }
 
     .pflo__skill-img_details div div {
-        margin-right: 0;
-        margin-top: 3rem;
-        margin-bottom: 0;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        /* margin-top: 3rem; */
+        /* margin-bottom: 0; */
     }
 
     .pflo__skill-img_details div {
