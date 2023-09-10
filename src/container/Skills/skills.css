@@ -193,6 +193,7 @@
     .pflo__skill-img_details div div p {
         font-size: 14px;
         line-height: 20px;
+        width: fit-content;
     }
 
     .pflo__skill-img div img {
