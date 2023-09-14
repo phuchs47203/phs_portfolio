@@ -1,6 +1,10 @@
 import React from 'react'
 import './footer.css';
-import { imagess } from '../../constants/index'
+import { ImLinkedin } from 'react-icons/im';
+import { IoLogoGithub } from 'react-icons/io';
+import { ImMail } from 'react-icons/im';
+import { BsPhoneVibrate } from 'react-icons/bs';
+import { GiPositionMarker } from 'react-icons/gi';
 const Footer = () => {
     return (
         <div className='pflo__footer' id='contact'>
@@ -10,35 +14,35 @@ const Footer = () => {
             <div className='pflo__footer-content'>
                 <div className='pflo__footer-content-groupA'>
                     <div className='pflo__footer-content_link'>
-                        <img src={imagess.email} alt="" />
+                        <ImMail />
                         <p>21522479@mg.uit.edu.vn</p>
                     </div>
                     <div className='pflo__footer-content_link'>
-                        <img src={imagess.email} alt="" />
+                        <ImMail />
                         <p>tranhoangphuc0407@gmail.com</p>
                     </div>
                     <div className='pflo__footer-content_link'>
-                        <img src={imagess.phone} alt="" />
+                        <BsPhoneVibrate />
                         <p>0344 855 827</p>
                     </div>
                     <div className='pflo__footer-content_link'>
-                        <img src={imagess.address} alt="" style={{ marginLeft: '5px' }} />
-                        <p style={{ marginLeft: '3px' }}>Linh Trung Ward, Thu Duc District, Ho Chi Minh City</p>
+                        <GiPositionMarker />
+                        <p>Linh Trung Ward, Thu Duc District, Ho Chi Minh City</p>
                     </div>
                 </div>
                 <div className='pflo__footer-content-groupB'>
                     <a href="https://www.linkedin.com/in/tran-hoang-phuc-685486245/">
-                        <img src={imagess.linkedin} alt="" />
+                        <ImLinkedin />
                     </a>
 
                     <a href="https://github.com/phuchs47203">
-                        <img src={imagess.github} alt="" />
+                        <IoLogoGithub />
                     </a>
                 </div>
             </div>
             <div className='copy-right'>
                 <h6>
-                    © 2023 Portfolio. All rights reserved.
+                    © 2023 Portfolio PHs - All rights reserved.
                 </h6>
             </div>
         </div>

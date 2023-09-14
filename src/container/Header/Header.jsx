@@ -1,8 +1,8 @@
 import React from 'react'
 import './header.css';
-import imglinkedin from '../../assets/linkedin.png';
-import imggithub from '../../assets/github2png.png'
-import imglogo from '../../assets/my_picture2.jpg'
+import imglogo from '../../assets/my_picture2.jpg';
+import { ImLinkedin } from 'react-icons/im';
+import { IoLogoGithub } from 'react-icons/io';
 const Header = () => {
     return (
         <div className='pflo__header section__padding' id='home'>
@@ -11,10 +11,10 @@ const Header = () => {
                 <p>I'm a fresher looking for a job as a Data Analyst or a JAVA Developer</p>
                 <div className='pflo__header-content-links'>
                     <a href="https://www.linkedin.com/in/tran-hoang-phuc-685486245/">
-                        <img src={imglinkedin} alt="" />
+                        <ImLinkedin />
                     </a>
                     <a href="https://github.com/phuchs47203">
-                        <img src={imggithub} alt="" />
+                        <IoLogoGithub />
                     </a>
                 </div>
             </div>
