@@ -11,6 +11,9 @@
     position: fixed;
     z-index: 2;
     // height: 10%;
+    @media screen and (max-width:700px) {
+        padding: 0rem;
+    }
 }
 
 .pflo__navbar-logo {
@@ -27,6 +30,9 @@
             width: 100%;
             height: 100px;
         }
+    }
+    @media screen and (max-width: 700px) {
+        height: 80px;
     }
 }
 
@@ -86,11 +92,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(151, 100, 100);
+    // background-color: rgb(151, 100, 100);
+    background-color: none;
     svg {
-        width: 70%;
-        height: 70%;
-        color: white;
+        width: 80%;
+        height: 80%;
+        color: rgb(234, 208, 208);
     }
     div {
         position: fixed;
@@ -99,22 +106,22 @@
         right: 0;
         z-index: 5;
         padding: 1rem;
-        width: 80%;
+        width: 60%;
         height: 60vh;
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
         flex-direction: column;
 
-        background: url('../../assets/bgWhite.png');
-        background-color: rgb(64, 104, 131);
+        // background: url('../../assets/bgWhite.png');
+        background-color: rgba(64, 104, 131, 0.9);
         background-size: cover;
 
         // background-repeat: repeat;
         // box-shadow: 0px 0px 20px rgba(168, 168,0.15);
         svg {
-            width: 35px;
-            height: 35px;
+            width: 30px;
+            height: 30px;
             color: rgb(7, 226, 215);
             margin: 0.5rem 1rem;
         }

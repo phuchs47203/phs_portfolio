@@ -76,15 +76,23 @@
     background: url('../../assets/bgWhite.png');
     background-color: rgb(252, 251, 223);
     background-size: cover;
+    width: 300px;
+    height: auto;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pflo__skill-img_details div div p {
     font-family: var(--font-family);
     color: var(--color-p);
     word-wrap: break-word;
-    margin: 1rem;
+    margin: 1rem 1.5rem;
     width: 100%;
+    font-size: 24px;
+    padding: 0.2rem 1rem;
+    /* border: 1px solid red; */
 }
 
 .pflo__skill-img div img {
@@ -111,11 +119,6 @@
         justify-content: center;
     }
 
-    .pflo__skill-img_details div {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-    }
 
     .pflo__skill-img_details div svg {
         z-index: 6;
@@ -147,8 +150,8 @@
         line-height: 38x;
     }
 
-    .pflo__skills p {
-        font-size: 20px;
+    .pflo__skill-img_details div div {
+        width: fit-content;
     }
 }
 
@@ -190,11 +193,19 @@
         margin-top: 3rem;
     }
 
+    .pflo__skill-img_details div div {
+        width: fit-content;
+
+    }
+
     .pflo__skill-img_details div div p {
-        font-size: 13px;
+        font-size: 14px;
         line-height: 16px;
         width: fit-content;
         word-wrap: break-word;
+        word-break: keep-all;
+        padding: 1rem 0.5rem;
+        margin: 0;
     }
 
     .pflo__skill-img div img {
@@ -205,16 +216,8 @@
         z-index: 1;
     }
 
-    .pflo__skill-img_details div div {
-        margin-right: 0.5rem;
-        margin-left: 0.5rem;
-        /* margin-top: 3rem; */
-        /* margin-bottom: 0; */
-    }
 
     .pflo__skill-img_details div {
-        margin: 0;
-        position: absolute;
         display: grid;
     }
 }
