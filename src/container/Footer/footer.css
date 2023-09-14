@@ -93,12 +93,13 @@ grd
 }
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:550px) {
     .pflo__footer {
+        padding: 2rem 0.5rem;
         padding-bottom: 0;
     }
 
     .pflo__footer-content_link p {
-        font-size: 13px;
+        font-size: 14px;
     }
 }
