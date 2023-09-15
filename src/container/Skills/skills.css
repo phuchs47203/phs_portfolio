@@ -221,3 +221,16 @@
         display: grid;
     }
 }
+
+@media screen and (max-width: 350px) {
+    .pflo__skill-img {
+        margin-right: 0rem;
+        grid-gap: 0rem;
+    }
+
+    .pflo__skill-img div {
+        margin: 1rem 0;
+        width: 130px;
+    }
+
+}

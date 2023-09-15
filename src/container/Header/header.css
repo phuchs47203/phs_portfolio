@@ -145,3 +145,11 @@ gg */
         margin-bottom: 2rem;
     }
 }
+
+@media screen and (max-width: 350px) {
+    .pflo__header-logo div {
+        width: 200px;
+        height: 200px;
+    }
+
+}

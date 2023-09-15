@@ -43,7 +43,7 @@ body {
 .bg_about {
     background: url('../src/assets/bgWhite.png');
     background-color: rgb(157, 178, 192);
-    background-size: cover;
+    /* background-size: auto; */
     padding: 0 6rem;
 }
 
@@ -56,6 +56,12 @@ body {
 @media screen and (max-width: 550px) {
     .bg_about {
         padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .App {
+        width: 120%;
     }
 }
 
