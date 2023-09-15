@@ -3,30 +3,12 @@
     flex-direction: row;
     justify-content: center;
     margin-bottom: 2rem;
+    height: 30vh;
 }
 
-.pflo__about-img {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5rem;
-    margin-bottom: 2rem;
-}
 
-.pflo__about-img img {
-    width: 80%;
-    height: 500px;
-    object-fit: cover;
-    cursor: pointer;
-    border-radius: 10%;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
 
-.pflo__about-content {
-    flex: 1;
-}
+.pflo__about-content {}
 
 .pflo__about-content h1 {
     font-family: var(--font-family);
@@ -39,7 +21,7 @@
 .pflo__about-content div {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .pflo__about-content div h2 {
@@ -82,9 +64,10 @@
     text-align: justify;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1200px) {
     .pflo__about {
         flex-direction: column;
+        margin-top: 4rem;
     }
 
     .pflo__about-content h1 {
@@ -106,13 +89,17 @@
     }
 }
 
-@media screen and (max-width:850) {
+@media screen and (max-width:900px) {
     .pflo__about-img {
         display: none;
     }
+
+    .pflo__about {
+        height: 50vh;
+    }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:550px) {
     .pflo__about {
         flex-direction: column;
         margin: 0 1rem 0 1rem;

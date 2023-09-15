@@ -4,10 +4,7 @@ import Myimg from '../../assets/aboutmecut.jpg'
 import logoUIT from '../../assets/logoUIT.png'
 const About = () => {
     return (
-        <div className='pflo__about section__margin' id='about'>
-            <div className='pflo__about-img'>
-                <img src={Myimg} alt="about me" />
-            </div>
+        <div className='pflo__about' id='about'>
             <div className='pflo__about-content'>
                 <h1 className='gradient__text'>ABOUT ME</h1>
                 <div className='pflo__about-content_UIT'>

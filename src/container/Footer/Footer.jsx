@@ -15,11 +15,11 @@ const Footer = () => {
                 <div className='pflo__footer-content-groupA'>
                     <div className='pflo__footer-content_link'>
                         <ImMail />
-                        <p>21522479@mg.uit.edu.vn</p>
+                        <a href='mailto:21522479@mg.uit.edu.vn'>21522479@mg.uit.edu.vn</a>
                     </div>
                     <div className='pflo__footer-content_link'>
                         <ImMail />
-                        <p>tranhoangphuc0407@gmail.com</p>
+                        <a href='mailto:tranhoangphuc0407@gmail.com'>tranhoangphuc0407@gmail.com</a>
                     </div>
                     <div className='pflo__footer-content_link'>
                         <BsPhoneVibrate />

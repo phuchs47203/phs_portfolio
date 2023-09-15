@@ -82,14 +82,21 @@ grd
 .copy-right h6 {
     font-family: var(--font-family);
     color: aliceblue;
-    font-size: 10px;
+    font-size: 18px;
     font-weight: 100;
 }
 
 .pflo__footer-content_link p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(191, 220, 246);
+}
+
+.pflo__footer-content_link a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(191, 220, 246);
+    text-decoration: none;
 }
 
 
@@ -100,6 +107,14 @@ grd
     }
 
     .pflo__footer-content_link p {
+        font-size: 14px;
+    }
+
+    .pflo__footer-content_link a {
+        font-size: 14px;
+    }
+
+    .copy-right h6 {
         font-size: 14px;
     }
 }
