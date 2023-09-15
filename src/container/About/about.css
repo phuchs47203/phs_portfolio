@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     margin-bottom: 2rem;
-    height: 30vh;
+    height: 40vh;
 }
 
 
@@ -120,6 +120,7 @@
     .pflo__about-content div a img {
         height: 35px;
     }
+
 
     .pflo__about-content p {
         font-size: 16px;
