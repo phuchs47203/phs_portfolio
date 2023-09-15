@@ -14,13 +14,14 @@ const achieDATA = [
         text: 'I received Two Scholarship Promote learning at UIT University (Excellent type 14.400.000 VND and 12.000.000 VND).',
         linkDemonstrate: 'https://drive.google.com/file/d/1H1ZkCTncpywCk26wi_Ea25rN8gLWOEn1/view'
     },
+    {
+        logourl: imagess.toeic,
+        text: 'I have TOEIC Certificate 2 skills Listening - Reading (405 - 26/07/2022).',
+        linkDemonstrate: 'https://drive.google.com/file/d/1H1ZkCTncpywCk26wi_Ea25rN8gLWOEn1/view'
+    }
 
 ]
-// {
-//     logourl: imagess.toeic,
-//     text: 'I have TOEIC Certificate 2 skills Listening - Reading (405 - 26/07/2022).',
-//     linkDemonstrate: 'https://drive.google.com/file/d/1H1ZkCTncpywCk26wi_Ea25rN8gLWOEn1/view'
-// }
+
 const Achievement = () => {
     return (
         <div className='pflo__achiev' id='achievement'>
