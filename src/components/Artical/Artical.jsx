@@ -1,8 +1,9 @@
 import React from 'react'
 import './artical.css';
-import imggithub from '../../assets/github2png.png';
-import imgdemo from '../../assets/demoedit.png';
-import imgcomment from '../../assets/comment.png';
+import { MdOndemandVideo } from 'react-icons/md';
+import { MdInsertComment } from 'react-icons/md';
+import { IoLogoGithub } from 'react-icons/io';
+
 const Artical = ({ imgURL, date, title, description, linkcode, linkdemo, linkcomment }) => {
     return (
         <div className='pflo__pflo-article'>
@@ -17,13 +18,13 @@ const Artical = ({ imgURL, date, title, description, linkcode, linkdemo, linkcom
                 <p>{description}</p>
                 <div className='pflo__pflo-article-content-links'>
                     <a href={linkcode}>
-                        <img src={imggithub} alt="logo github" />
+                        <IoLogoGithub style={{ color: "rgb(94, 22, 10)" }} />
                     </a>
                     <a href={linkdemo}>
-                        <img src={imgdemo} alt="logo github" />
+                        <MdOndemandVideo style={{ color: "rgb(199, 98, 110)" }} />
                     </a>
                     <a href={linkcomment}>
-                        <img src={imgcomment} alt="logo github" />
+                        <MdInsertComment style={{ color: "rgb(210, 113, 28)" }} />
                     </a>
                 </div>
             </div>

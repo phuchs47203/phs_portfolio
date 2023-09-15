@@ -2,6 +2,7 @@ import React from 'react'
 import './achievement.css';
 import { imagess } from '../../constants';
 import { Feature } from '../../components';
+import { FaAward } from 'react-icons/fa';
 const achieDATA = [
     {
         logourl: imagess.score,
@@ -25,7 +26,7 @@ const Achievement = () => {
         <div className='pflo__achiev' id='achievement'>
             <div className='pflo__achiev-heading'>
                 <h1 className='gradient__text'>ACHIEVEMENT</h1>
-                <img src={imagess.achievement} alt="logo achievement" />
+                <FaAward />
             </div>
             <div className='pflo__achiev-content'>
                 {
