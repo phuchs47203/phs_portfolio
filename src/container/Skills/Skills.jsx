@@ -18,7 +18,9 @@ const Skills = () => {
         oop: false,
         dsa: false,
         git: false,
-        postman: false
+        postman: false,
+        redis: false,
+        laravel: false
     });
 
     const setToggle = (imageName) => {
@@ -73,6 +75,36 @@ const Skills = () => {
                             <HiX onClick={() => setToggle('springboot')} />
                             <div className='pflo__skill-img_details-div'>
                                 <p>Can I use MVC model in Application Programming, using Spring boot for Java Backend</p>
+                            </div>
+                        </motion.div>
+                    )}
+                </div>
+                <div className='pflo__skill-img_details'>
+                    <img src={imagess.laravel} alt='skill1' onClick={() => setToggle('laravel')} />
+                    {imageDetails.laravel && (
+                        <motion.div
+                            initial={{ opacity: 0, x: 0 }}
+                            animate={{ opacity: imageDetails.laravel ? 1 : 0, x: 0 }}
+                            transition={{ duration: 0.85 }}
+                        >
+                            <HiX onClick={() => setToggle('laravel')} />
+                            <div className='pflo__skill-img_details-div'>
+                                <p>Laravel 10.x framework in php</p>
+                            </div>
+                        </motion.div>
+                    )}
+                </div>
+                <div className='pflo__skill-img_details'>
+                    <img src={imagess.redis} alt='skill1' onClick={() => setToggle('redis')} />
+                    {imageDetails.redis && (
+                        <motion.div
+                            initial={{ opacity: 0, x: 0 }}
+                            animate={{ opacity: imageDetails.redis ? 1 : 0, x: 0 }}
+                            transition={{ duration: 0.85 }}
+                        >
+                            <HiX onClick={() => setToggle('redis')} />
+                            <div className='pflo__skill-img_details-div'>
+                                <p>Redis with ditributed database</p>
                             </div>
                         </motion.div>
                     )}
