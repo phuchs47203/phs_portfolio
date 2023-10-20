@@ -1,0 +1,74 @@
+.pflo_oneskill {
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.pflo_oneskill img {
+    width: 100px;
+    height: fit-content;
+    object-fit: cover;
+}
+
+.pflo_oneskill svg {
+    width: 100px;
+    height: 40px;
+    object-fit: cover;
+    color: rgb(238, 93, 57);
+}
+
+
+.pflo_oneskill-content {
+    background: rgba(23, 23, 54, 0.85);
+    position: absolute;
+    min-width: 180px;
+    max-width: 400px;
+    /* box-shadow: 0 0 5 rgba(0, 0, 0.2); */
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+
+
+}
+
+.pflo_oneskill-content p {
+    color: rgb(255, 255, 255);
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 990px) {
+    .pflo_oneskill img {
+        width: 80px;
+    }
+
+    .pflo_oneskill svg {
+        width: 80px;
+        height: 40px;
+    }
+    .pflo_oneskill-content {
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pflo_oneskill img {
+        width: 70px;
+    }
+
+    .pflo_oneskill svg {
+        width: 70px;
+        height: 30px;
+    }
+
+    .pflo_oneskill-content {
+        right: 1rem;
+        left: 1rem;
+        
+    }
+}

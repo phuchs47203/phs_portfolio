@@ -1,7 +1,6 @@
 .pflo__portfolio {
     display: flex;
     flex-direction: column;
-    padding: 4rem 6rem;
 }
 
 .pflo__portfolio-heading {
@@ -40,9 +39,10 @@
     }
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1200px) {
     .pflo__portfolio-container {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -56,13 +56,14 @@
     }
 }
 
-@media screen and (max-width: 500px) {
-    .pflo__portfolio {
-        padding: 3rem 2rem;
+@media screen and (max-width: 600px) {
+    .pflo__portfolio-heading {
+        margin-bottom: 2rem;
     }
 
     .pflo__portfolio-heading h1 {
         font-size: 32px;
+        line-height: 40px;
     }
 
     .pflo__portfolio-heading p {

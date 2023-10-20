@@ -13,11 +13,13 @@ const App = () => {
                 <Header />
                 <About />
             </div>
-            <Skills />
-            <CTA />
-            <Portfolio />
-            <Achievement />
-            <Comment />
+            <div className='section__padding'>
+                <Skills />
+                <CTA />
+                <Portfolio />
+                <Achievement />
+                <Comment />
+            </div>
             <Footer />
         </div>
     )

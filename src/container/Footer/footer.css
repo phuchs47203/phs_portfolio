@@ -100,10 +100,10 @@ grd
 }
 
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:600px) {
     .pflo__footer {
         padding: 2rem 0.5rem;
-        padding-bottom: 0;
+        padding-bottom: 0rem;
     }
 
     .pflo__footer-content_link p {
