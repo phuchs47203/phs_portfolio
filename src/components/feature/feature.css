@@ -12,6 +12,7 @@
     width: 120px;
     justify-content: flex-start;
     align-items: center;
+    margin: 1rem;
 }
 
 .pflo__feature-title div {
@@ -36,7 +37,7 @@
 }
 
 .pflo__feature-content {
-    flex: 3;
+    flex: 100%;
     margin-left: 0;
     display: flex;
     justify-content: flex-start;
@@ -53,18 +54,22 @@
     .pflo__feature-content p {
         font-size: 20px;
     }
+
+    .pflo__feature-title {
+        width: 70px;
+
+    }
 }
 
 @media screen and (max-width: 600px) {
     .pflo__feature-title {
         justify-content: flex-start;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .pflo__feature-content {
-        flex: 100%;
         justify-content: flex-start;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .pflo__feature-content p {

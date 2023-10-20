@@ -27,7 +27,12 @@
     object-fit: contain;
     color: rgb(252, 103, 69);
 }
-
+.pflo__achiev-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width: 1000px) {
     .pflo__achiev-heading h1 {
         font-size: 40px;
