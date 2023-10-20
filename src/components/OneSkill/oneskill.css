@@ -17,8 +17,6 @@
     height: 100px;
     justify-content: center;
     align-items: center;
-    background: rgba(231, 250, 250, 1);
-    z-index: 10;
 }
 
 .close-icon svg {
