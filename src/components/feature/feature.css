@@ -56,17 +56,27 @@
 }
 
 @media screen and (max-width: 600px) {
+    .pflo__feature-title {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .pflo__feature-content {
+        flex: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
     .pflo__feature-content p {
         font-size: 16px;
         line-height: 28px;
         font-weight: 300;
     }
+
+    .pflo__feature-title a {
+        width: 50px;
+        height: 50px;
+    }
 }
 
-@media screen and (max-width: 400px) {
-    
-.pflo__feature-title a {
-    width: 60px;
-    height: 60px;
-}
-}
+@media screen and (max-width: 400px) {}

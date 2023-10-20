@@ -15,8 +15,8 @@
     padding: 2rem 3rem;
     border-radius: 1rem;
     background: var(--gradient-bg);
-    margin-top: 15rem;
-    margin-bottom: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
 }
 
 .pflo__cta-content p {
@@ -85,13 +85,14 @@
 @media screen and (max-width:600px) {
     .pflo__cta {
         padding: 1rem;
+        margin-top: 8rem;
     }
 
     .pflo__cta-content p {
         text-align: center;
         font-size: 18px;
         line-height: 30px;
-        line-height: 32px;
+        line-height: 26px;
     }
 
     .pflo__cta-btn button {

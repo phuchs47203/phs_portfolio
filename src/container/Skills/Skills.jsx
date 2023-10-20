@@ -63,7 +63,7 @@ const skillData = [
     },
     {
         imgURL: imagess.oop,
-        content: 'I can use OOP in programming, I have knowledge of Inheritance, encapsulation, polymorphism and abstraction. I can use it with C++, java.'
+        content: 'I can use OOP in C++, Java. I have knowledge of Inheritance, Encapsulation, Polymorphism and Abstraction to design aplication'
     },
     {
         imgURL: imagess.dsa,
