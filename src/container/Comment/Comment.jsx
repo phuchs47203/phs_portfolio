@@ -22,16 +22,21 @@ const Comment = () => {
 
         if (!comment_user.email) {
             setErrorMessageemail('Email Address cannot be empty');
+            settextSuccessfull("");
+
             return;
         }
         const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
         if (!emailPattern.test(comment_user.email)) {
             setErrorMessageemail('Email address is not valid');
+            settextSuccessfull("");
+
             return;
         }
         setErrorMessageemail('');
         if (!comment_user.commentofuser) {
             setErrorMessagecomment('Comments cannot be empty');
+            settextSuccessfull("");
             return;
         }
         setErrorMessagecomment('');
