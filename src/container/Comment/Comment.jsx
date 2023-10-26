@@ -48,7 +48,7 @@ const Comment = () => {
             projectName: "",
             commentofuser: ""
         });
-
+        settextSuccessfull("Your comment has been sent successfully");
     };
     return (
 
