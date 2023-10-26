@@ -41,8 +41,15 @@ const Comment = () => {
                 console.log(response);
             }).catch((error) => {
                 console.log(error);
-            })
-    }
+            });
+        setCommentUser({
+            email: "",
+            fullname: "",
+            projectName: "",
+            commentofuser: ""
+        });
+
+    };
     return (
 
         <div className='pflo__comment' id='comment'>
