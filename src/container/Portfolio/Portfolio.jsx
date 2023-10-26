@@ -88,7 +88,7 @@ const projectDATA = [
     {
         urlimg: images.loginSpring,
         date: 'Jul 18, 2023',
-        title: 'Login and Registration using SPring boot - In Process',
+        title: 'Login and Registration using Spring boot - In Process',
         description: 'Practice Springboot, Hibernate, Send Email, Login User',
         srccode: 'https://github.com/phuchs47203/Login_and_Registration.git',
         democode: '',
