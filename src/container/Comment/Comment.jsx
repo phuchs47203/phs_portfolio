@@ -12,7 +12,7 @@ const Comment = () => {
     });
     const [errorMessageemail, setErrorMessageemail] = React.useState('');
     const [errorMessagecomment, setErrorMessagecomment] = React.useState('');
-
+    const [textSuccessfull, settextSuccessfull] = useState("");
     const handleChange = (e) => {
         const value = e.target.value;
         setCommentUser({ ...comment_user, [e.target.name]: value });
@@ -88,6 +88,7 @@ const Comment = () => {
                 {errorMessagecomment && <p className="error-message">{errorMessagecomment}</p>}
 
             </div>
+            {textSuccessfull && <p className="successfull-message">{textSuccessfull}</p>}
             <div className='pflo__comment-btn'>
                 <button
                     type='button'

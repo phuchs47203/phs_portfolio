@@ -65,8 +65,17 @@
     font-weight: 100;
     font-size: 12px;
     color: rgb(242, 95, 95);
-    margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-top: -0.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.successfull-message {
+    font-family: var(--font-family);
+    font-weight: 100;
+    font-size: 12px;
+    color: rgb(108, 239, 85);
+    margin-top: -0.3rem;
+    margin-bottom: 0.8rem;
 }
 
 .btn-transition {
