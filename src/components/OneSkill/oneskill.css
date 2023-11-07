@@ -30,7 +30,7 @@
 .background_transparent {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(105, 120, 134, 0.6);
+    background-color: rgba(0, 0, 0, 0.35);
     position: fixed;
     top: 0;
     left: 0;
@@ -40,6 +40,7 @@
     transition: opacity 0.3s ease-in-out;
 
 }
+
 .pflo_oneskill-content-parent {
     display: flex;
     flex-direction: row;
@@ -87,6 +88,7 @@
     }
 
     .pflo_oneskill-content {
+        /* margin: 0rem 1rem; */
         margin-top: -1rem;
     }
 
